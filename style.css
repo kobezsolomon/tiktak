@@ -26,8 +26,8 @@ body{
     z-index: 10;
 }
 .ontop button{
-    width: 15%;
-    height: 15%;
+    width: 200px;
+    height: 200px;
     background-color: rgba(240, 248, 255, 0.751);
     color:rgb(110, 51, 8) ;
     font-size: 30px;
