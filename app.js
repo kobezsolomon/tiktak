@@ -12,7 +12,10 @@ let inside9 = document.querySelector('.inside9');
 let ontop = document.querySelector('.ontop');
 let tryagain = document.querySelector('.tryagain');
 ontop.style.display="none";
-
+function buttonplayagain(){
+    ontop.style.display="none" ;
+    location.reload();
+}
 
 let line1 = document.querySelector('.line1');
 let line2 = document.querySelector('.line2');
