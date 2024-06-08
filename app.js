@@ -56,6 +56,7 @@ let count6 = 0;
 let count7 = 0;
 let count8 = 0;
 let count9 = 0;
+let kobez = 0 ;
 function clickedxoro() {
     if (value == 0 && count == 0){
         gamex.style.display= "block";
@@ -67,6 +68,11 @@ function clickedxoro() {
         overallvalue[0]="x";
         console.log(overallvalue);
         console.log("frist div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
     } 
     else
     if (value === 1 && count === 0){
@@ -79,6 +85,12 @@ function clickedxoro() {
         overallvalue[0]="o";
         console.log(overallvalue);
         console.log("frist div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
+        
     }
     check ()
   
@@ -96,6 +108,11 @@ function clickedxorototwo() {
         overallvalue[1]="x";
         console.log(overallvalue);
         console.log("secound div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
     }  
     else if
      (value == 1 && count2 === 0){
@@ -108,6 +125,11 @@ function clickedxorototwo() {
         overallvalue[1]="o";
         console.log(overallvalue);
         console.log("secound div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
         
     }
     check ()
@@ -126,6 +148,11 @@ function clickedxoro3() {
         overallvalue[2]="x";
         console.log(overallvalue);
         console.log("3und div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
     } 
      
     else if
@@ -139,6 +166,11 @@ function clickedxoro3() {
         overallvalue[2]="o";
         console.log(overallvalue);
         console.log("3d div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
         
     }
     check ()
@@ -155,6 +187,16 @@ function clickedxoro4() {
         overallvalue[3]="x";
         console.log(overallvalue);
         console.log("5 div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+            kobez++;
+            console.log(kobez ,"kobez");
+            if(kobez>8){
+                ontop.style.display="flex";
+            }
+        }
     }  
     else if
      (value == 1 && count4 === 0){
@@ -167,6 +209,11 @@ function clickedxoro4() {
         overallvalue[3]="o";
         console.log(overallvalue);
         console.log("5 div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
         
     }
     check ()
@@ -183,6 +230,11 @@ function clickedxoro5() {
         overallvalue[4]="x";
         console.log(overallvalue);
         console.log("5und div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
     }  
     else if
      (value == 1 && count5 === 0){
@@ -195,6 +247,11 @@ function clickedxoro5() {
         overallvalue[4]="o";
         console.log(overallvalue);
         console.log("5 div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
         
     }
     check ()
@@ -211,6 +268,11 @@ function clickedxoro6() {
         overallvalue[5]="x";
         console.log(overallvalue);
         console.log("4 div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
     }  
     else if
      (value == 1 && count6 === 0){
@@ -223,6 +285,11 @@ function clickedxoro6() {
         overallvalue[5]="o";
         console.log(overallvalue);
         console.log("6 div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
         
     }
     check ()
@@ -239,6 +306,11 @@ function clickedxoro7() {
         overallvalue[6]="x";
         console.log(overallvalue);
         console.log("7 div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
     }  
     else if
      (value == 1 && count7 === 0){
@@ -251,6 +323,11 @@ function clickedxoro7() {
         overallvalue[6]="o";
         console.log(overallvalue);
         console.log("7 div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
         
     }
     check ()
@@ -267,6 +344,11 @@ function clickedxoro8() {
         overallvalue[7]="x";
         console.log(overallvalue);
         console.log("8 div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
     }  
     else if
      (value == 1 && count8 === 0){
@@ -279,6 +361,11 @@ function clickedxoro8() {
         overallvalue[7]="o";
         console.log(overallvalue);
         console.log("8 div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
         
     }
     check ()
@@ -295,6 +382,11 @@ function clickedxoro9() {
         overallvalue[8]="x";
         console.log(overallvalue);
         console.log("9 div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
     }  
     else if
      (value == 1 && count9 === 0){
@@ -307,80 +399,104 @@ function clickedxoro9() {
         overallvalue[8]="o";
         console.log(overallvalue);
         console.log("9 div");
+        kobez++;
+        console.log(kobez ,"kobez");
+        if(kobez>8){
+            ontop.style.display="flex";
+        }
         }
         check ()
     }
 function check () {
     if(overallvalue[0]=="x" && overallvalue[1]=="x" && overallvalue[2]=="x"){
+        line1.style.display="block";
+   
         ontop.style.display="flex";
-        line1.style.display="block"}
+ 
+        }
     
 
     if(overallvalue[0]=="x" && overallvalue[3]=="x" && overallvalue[6]=="x"){
-        ontop.style.display="flex";
-        line4.style.display="block"}
+         line4.style.display="block";
+
+         ontop.style.display="flex";
+ 
+       }
    
  
     if(overallvalue[0]=="x" && overallvalue[4]=="x" && overallvalue[8]=="x"){
+   
+
         ontop.style.display="flex";
         line7.style.display="block"}
 
     if(overallvalue[1]=="x" && overallvalue[4]=="x" && overallvalue[7]=="x"){
+
         ontop.style.display="flex";
         line5.style.display="block"}
     
     if(overallvalue[2]=="x" && overallvalue[5]=="x" && overallvalue[8]=="x"){
+      
         ontop.style.display="flex";
         line6.style.display="block"}
     
     if(overallvalue[3]=="x" && overallvalue[4]=="x" && overallvalue[5]=="x"){
         ontop.style.display="flex";
+         
         line2.style.display="block"}
     
     if(overallvalue[6]=="x" && overallvalue[7]=="x" && overallvalue[8]=="x"){
         ontop.style.display="flex";
+         
         line3.style.display="block"}
     
     if(overallvalue[6]=="x" && overallvalue[4]=="x" && overallvalue[2]=="x"){
         ontop.style.display="flex";
+         
         line8.style.display="block"}
  
    
    
     if(overallvalue[0]=="o" && overallvalue[1]=="o" && overallvalue[2]=="o"){
         ontop.style.display="flex";
+         
         line1.style.display="block"}
 
     if(overallvalue[0]=="o" && overallvalue[3]=="o" && overallvalue[6]=="o"){
         ontop.style.display="flex";
+         
         line4.style.display="block"}
 
     if(overallvalue[0]=="o" && overallvalue[4]=="o" && overallvalue[8]=="o"){
         ontop.style.display="flex";
+         
         line7.style.display="block"}
 
     if(overallvalue[1]=="o" && overallvalue[4]=="o" && overallvalue[7]=="o"){
         ontop.style.display="flex";
+         
         line5.style.display="block"}
 
     if(overallvalue[2]=="o" && overallvalue[5]=="o" && overallvalue[8]=="o"){
         ontop.style.display="flex";
+         
         line6.style.display="block"}
 
     if(overallvalue[3]=="o" && overallvalue[4]=="o" && overallvalue[5]=="o"){
         ontop.style.display="flex";
+         
         line2.style.display="block"}
 
     if(overallvalue[6]=="o" && overallvalue[7]=="o" && overallvalue[8]=="o"){
         ontop.style.display="flex";
+         
         line3.style.display="block"}
 
     if(overallvalue[6]=="o" && overallvalue[4]=="o" && overallvalue[2]=="o"){
         ontop.style.display="flex";
+         
         line8.style.display="block"}
 
     
 }
-function buttonplayagain (){
-    window.location.reload();
-}
+
